@@ -143,7 +143,6 @@ class Particle {
   update(){
     this.destx = width - destinations[this.destid][0].position.x;
     this.desty = destinations[this.destid][0].position.y;
-    //console.log("( ",this.destx,", ",this.desty," )");
   }
 
 }
